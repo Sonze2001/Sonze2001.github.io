@@ -1,0 +1,115 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+body {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: Open Sans, sans-serif;
+}
+
+/* Global styles  */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  background: url("../img/bg-01.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+header .menu-actions { 
+  margin-top: 25px;
+  text-align: right;
+  color: white;
+}
+
+header #topbar {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+header .menu {
+  display: flex;
+}
+
+header .menu li {
+  display: block;
+}
+
+header .menu a {
+  padding: 10px 15px;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+header .menu a:hover {
+  background-color: #f44336;
+}
+
+header .lesson {
+  text-align: center;
+  padding: 70px 0;
+}
+
+header .lesson h1 {
+  padding: 0 0 100px;
+  font-size: 50px;
+  letter-spacing: 7px;
+  font-family: "Metal Mania";
+  color: #ffffff;
+  text-align: left;
+}
+
+header .lesson .button {
+  padding: 10px;
+  background-color: #f44336;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.main h2 {
+  text-align: center;
+  padding: 70px 0;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+
+
+
+/* General */
+
+
+
+/* Header */
+
+
+
+/* Tour */
+
+
+
+/* Gallery */
+
+
+
+/* Subscribe */
+
+
+
+/* Footer */
+
+
