@@ -80,15 +80,140 @@ header .lesson .button {
   display: inline-block;
 }
 
-.main h2 {
+.main h2, .gallery h2 {
   text-align: center;
-  padding: 70px 0;
+  padding: 30px 0;
   color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
+.main .row {
+  display: flex;
+  justify-content: space-between;
+}
 
+.tour-card {
+  padding: 30px 10px 60px;
+}
 
+.tour-card .tour-town {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color: #ffffff;
+ }
+
+.tour-place {
+  font-style: normal;
+  color: #ffffff;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.tour-date {
+  font-style: italic;
+  color: #ffffff;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.tour-card.madrid {
+background: url("../img/tour/madrid.jpg") no-repeat;
+background-size: 100% 100%;
+}
+
+.tour-card.turin {
+background: url("../img/tour/turin.jpg") no-repeat;
+background-size: 100% 100%;
+}
+
+.tour-card.hamburg {
+background: url("../img/tour/hamburg.jpg") no-repeat;
+background-size: 100% 100%;
+}
+
+.tour-card.krakow {
+  background: url("../img/tour/krakow.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+div .button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  margin: 20px 30px 0;
+  
+}
+
+.gallery {
+  padding: 5px;
+}
+
+.gallery .gallery-photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.subscribe {
+margin: 15px 0;
+padding: 50px 0;
+background: url("../img/bg-02.jpg") center center no-repeat;
+background-size: 100%;
+}
+
+.subscribe h2 {
+  text-transform: uppercase;
+  padding: 25px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+div.subscribe {
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+}
+
+form.subscribe-form input.email {
+  margin: 15px 0;
+  padding: 5px;
+  font-size: 15px;
+  min-width: 100px;
+}
+
+form.subscribe-form button.submit {
+  padding: 7px;
+  background-color: #f44336;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  font-size: 15px;
+  }
+footer div.social {
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+}
+footer div.social a {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+footer p.copyright {
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  margin: 15px 0 20px;
+}
 
 /* General */
 
