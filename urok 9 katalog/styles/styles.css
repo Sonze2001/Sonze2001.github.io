@@ -1,0 +1,144 @@
+   * {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ 
+ header h1.title  {
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 15px 0;
+    padding: 15px;
+}
+main {
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-bottom: 5%;
+   display: flex;
+   flex-direction: row;
+   position: relative;
+  }
+
+main div.action-arrow {
+   color: grey;
+   border: 1px solid grey;
+   width: 30px;
+   height: 30px;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+main div.product {
+   border: 1px solid grey;
+   flex: 1;
+}
+
+main div.product div.header {
+   color: grey;
+   text-align: center;
+   font-size: 12px;
+   text-transform: uppercase;
+   margin: 15px 0;
+   padding: 25px 15px 15px;
+   position: relative;
+}
+
+main div.product div.header div.product-hint {
+   color: #fff;
+   border: 1px solid grey;
+   width: 70px;
+   height: 70px;
+   border-radius: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 12px;
+   text-transform: uppercase;
+   position: absolute;
+   top: -50px;
+   right: 15px;
+}
+
+main div.product div.header div.product-hint.highlight {
+   background-color: #86b022;
+}
+
+main div.product div.header div.product-hint.hit {
+   background-color: #009de1;
+}
+
+main div.product div.header div.header-sep {
+   height: 1px;
+   background-color: grey;
+   margin: 30px 0;
+}
+
+main div.left-arrow {
+   position: absolute;
+   top: 70px;
+   left: -15px;
+   background-color: #fff;
+}
+main div.right-arrow {
+   position: absolute;
+   top: 70px;
+   right: -15px;
+   background-color: #fff;
+}
+main div.content {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 25px;
+}
+a {
+   color: #009de1;
+   text-decoration: none;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   font-weight: bolt;
+   }
+
+main div.price {
+color: black;
+font-size: 20px;
+text-align: center;
+margin: 5px 0;
+padding: 15px;
+font-weight: bolt;
+}
+
+main div.price.del {
+   font-size: 5px;
+   color: #fff;
+}
+
+main div.new-1 {
+  padding: 10px 20px;
+  background-color: #b522ab;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  margin: 30px 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+ main div .button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  margin: 30px 30px 0;
+  }
+  
